@@ -1,5 +1,8 @@
+# Kept for backwards compatibility only. The canonical dependency source is
+# pyproject.toml / uv.lock, which the Dockerfile uses.
+fastmcp>=2.0.0,<4.0.0
+mcp>=1.23.0,<2.0.0
 alpaca-py
-mcp>=1.23.0
 python-dotenv
 urllib3>=2.6.3
 python-multipart>=0.0.22
